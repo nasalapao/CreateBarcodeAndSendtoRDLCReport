@@ -17,15 +17,26 @@ Public Class Form1
         Dim barcodewritte As New BarcodeWriter
         barcodewritte.Format = BarcodeFormat.CODE_128
 
-        Dim img = barcodewritte.Write("123456")
+        Dim img = barcodewritte.Write("123456000DDDSS")
 
         Dim parami3 As New ReportParameter()
         parami3.Name = "Picpath"
         parami3.Values.Add(ConvertBitmapToBase64String(img))
 
 
+        Dim PgSet As New System.Drawing.Printing.PageSettings
+        Dim Psiz As New Printing.PaperSize
+        Psiz.RawKind = Printing.PaperKind.Custom
+        Psiz.Width = 500
+        Psiz.Height = 400
+
+        PgSet.PaperSize = Psiz
+        PgSet.Landscape = False
+
         With ReportViewer1
             .LocalReport.SetParameters(New ReportParameter() {parami, parami2, parami3})
+            .SetPageSettings(PgSet)
+            .RefreshReport()
         End With
 
 

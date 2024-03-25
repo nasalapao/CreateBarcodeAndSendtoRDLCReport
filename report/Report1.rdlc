@@ -20,10 +20,10 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Name</rd:DefaultName>
-            <Top>0.76412cm</Top>
-            <Left>1.6637cm</Left>
-            <Height>1.20854cm</Height>
-            <Width>10.80792cm</Width>
+            <Top>0.38489cm</Top>
+            <Left>0.44662cm</Left>
+            <Height>0.57354cm</Height>
+            <Width>4.29917cm</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -49,8 +49,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Las</rd:DefaultName>
-            <Top>2.45745cm</Top>
-            <Left>1.6637cm</Left>
+            <Top>0.78204cm</Top>
+            <Left>0.44662cm</Left>
             <Height>0.6cm</Height>
             <Width>2.5cm</Width>
             <ZIndex>1</ZIndex>
@@ -68,11 +68,11 @@
             <Source>Database</Source>
             <Value>=Parameters!Picpath.Value</Value>
             <MIMEType>image/png</MIMEType>
-            <Sizing>FitProportional</Sizing>
-            <Top>3.83328cm</Top>
-            <Left>1.6637cm</Left>
-            <Height>3.29917cm</Height>
-            <Width>12.50667cm</Width>
+            <Sizing>Fit</Sizing>
+            <Top>1.92604cm</Top>
+            <Left>0.44662cm</Left>
+            <Height>1.73813cm</Height>
+            <Width>5.07187cm</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -81,17 +81,19 @@
             </Style>
           </Image>
         </ReportItems>
-        <Height>3.8125in</Height>
-        <Style />
+        <Height>5cm</Height>
+        <Style>
+          <BackgroundColor>Tomato</BackgroundColor>
+        </Style>
       </Body>
-      <Width>6.5in</Width>
+      <Width>8cm</Width>
       <Page>
-        <PageHeight>29.7cm</PageHeight>
-        <PageWidth>21cm</PageWidth>
-        <LeftMargin>2cm</LeftMargin>
-        <RightMargin>2cm</RightMargin>
-        <TopMargin>2cm</TopMargin>
-        <BottomMargin>2cm</BottomMargin>
+        <PageHeight>8cm</PageHeight>
+        <PageWidth>8cm</PageWidth>
+        <LeftMargin>0cm</LeftMargin>
+        <RightMargin>0cm</RightMargin>
+        <TopMargin>0cm</TopMargin>
+        <BottomMargin>0cm</BottomMargin>
         <ColumnSpacing>0.13cm</ColumnSpacing>
         <Style />
       </Page>

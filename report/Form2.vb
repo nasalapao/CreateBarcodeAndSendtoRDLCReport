@@ -12,11 +12,10 @@ Public Class Form2
         Dim barcodewritte As New BarcodeWriter
         barcodewritte.Format = BarcodeFormat.CODE_128
 
-        PictureBox1.Image = barcodewritte.Write("123456")
+        PictureBox1.Image = barcodewritte.Write("123456789000")
     End Sub
 
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-
-
-
+    End Sub
 End Class
